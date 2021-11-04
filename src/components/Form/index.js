@@ -1,11 +1,24 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, TextInput} from 'react-native';
+
 
 export default function Form(){
     return(
         <View>
 
-            <Text>Peso e altura</Text>
+            <Text>Peso </Text>
+            <TextInput
+             placeholder="Digite aqui" 
+             keyboardType="numeric" 
+             />
+
+
+
+            <Text>Altura</Text>
+            <TextInput
+             placeholder="Digite aqui" 
+             keyboardType="numeric" />
+
         </View>
     )
 }

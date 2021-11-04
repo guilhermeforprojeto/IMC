@@ -1,11 +1,12 @@
 import React from 'react';
-import { View, Form, Text } from 'react-native';
+import { View, Text } from 'react-native';
+import Form from '../Form';
 
 export default function Main(){
     return(
         <View>
             <Text>Formulario</Text>
-            <Form></Form>
+           <Form></Form>
         </View>
     )
 }
